@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="jqueryClickEvent.html" />
+    <None Remove="jqueryMethods.html" />
+    <None Remove="jquerySelectors.html" />
+    <None Remove="jqueryStylingContent.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="jqueryMethods.html" />
+    <Compile Include="jqueryClickEvent.html" />
+    <Compile Include="jqueryStylingContent.html" />
+    <Compile Include="jquerySelectors.html" />
+  </ItemGroup>
+
+</Project>
