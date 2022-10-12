@@ -9,6 +9,7 @@
     <None Remove="jqueryChangeEvent.html" />
     <None Remove="jqueryClickEvent.html" />
     <None Remove="jqueryFadeSlide.html" />
+    <None Remove="jqueryFormValidation.html" />
     <None Remove="jqueryMessageBox.html" />
     <None Remove="jqueryMethods.html" />
     <None Remove="jquerySelectors.html" />
@@ -17,6 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="jqueryFormValidation.html" />
     <Compile Include="jqueryMessageBox.html" />
     <Compile Include="jqueryAnimation.html" />
     <Compile Include="jqueryFadeSlide.html" />
