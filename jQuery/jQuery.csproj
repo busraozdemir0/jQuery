@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="index.html" />
     <None Remove="jqueryAnimation.html" />
     <None Remove="jqueryChangeEvent.html" />
     <None Remove="jqueryClickEvent.html" />
@@ -18,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="index.html" />
     <Compile Include="jqueryFormValidation.html" />
     <Compile Include="jqueryMessageBox.html" />
     <Compile Include="jqueryAnimation.html" />
